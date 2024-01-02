@@ -1,4 +1,4 @@
-# Backend Project Oriented learning
+# Project-Oriented Backedn learning
 
 Following chai aur code - by Hitesh Chaudhary
 
