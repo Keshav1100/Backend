@@ -22,5 +22,11 @@ const uploadOnCloudinary = async (localFilePath) => {
     return null;
   }
 };
-
+const deleteOnCloudinary = async(publicId)=>{
+  try {
+    
+  } catch (error) {
+    
+  }
+}
 export { uploadOnCloudinary };

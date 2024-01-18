@@ -266,6 +266,7 @@ const updateUserAvatar = asyncHandler(async (req, res) => {
   if (!avatarLocalPath) {
     throw new ApiError(400, "Avatar image not found.");
   }
+  // TODO: delete the old avatar from backend cloudinary
   const avatar = await uploadOnCloudinary(avatarLocalPath);
   if (!avatar.url) {
     throw new ApiError(
